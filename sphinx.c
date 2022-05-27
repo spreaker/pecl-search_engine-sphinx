@@ -1824,8 +1824,8 @@ static zend_function_entry sphinx_client_methods[] = { /* {{{ */
 	PHP_ME(SphinxClient, status, 				arginfo_sphinxclient__param_void, ZEND_ACC_PUBLIC)
 #endif
 	PHP_ME(SphinxClient, updateAttributes, 		arginfo_sphinxclient_updateattributes, ZEND_ACC_PUBLIC)
-	PHP_ME(SphinxClient, __sleep,				arginfo_sphinxclient__param_void, ZEND_ACC_PUBLIC|ZEND_ACC_FINAL)
-	PHP_ME(SphinxClient, __wakeup,				arginfo_sphinxclient__param_void, ZEND_ACC_PUBLIC|ZEND_ACC_FINAL)
+	PHP_ME(SphinxClient, __sleep,				NULL, ZEND_ACC_PUBLIC|ZEND_ACC_FINAL)
+	PHP_ME(SphinxClient, __wakeup,				NULL, ZEND_ACC_PUBLIC|ZEND_ACC_FINAL)
 	{NULL, NULL, NULL}
 };
 /* }}} */
